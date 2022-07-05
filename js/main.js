@@ -87,14 +87,10 @@
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
-$('.project-title-item[id^="title-"]').on('click', function(){
-  $(this).css("background-color", "yellow");
-
-  // $('.project-title-container div').each(function(){
-  //   $(this).css("background-color", "red");
-  //   alert(this.text + ' ' + this.value);
-  // });
-});
+// $('.project-title-item[id^="title-"]').on('click', function(){
+//   $(this).css("background-color", "yellow");
+ 
+// });
 
 
 
